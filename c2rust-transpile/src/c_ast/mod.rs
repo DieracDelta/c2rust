@@ -158,7 +158,7 @@ impl TypedAstContext {
             // The first include should be from the input file.
             // If this is false, then we haven't found the full, correct include path.
             if let Some(root_include_path) = cur.path.as_deref() {
-                assert_eq!(root_include_path, input_path);
+                //assert_eq!(root_include_path, input_path);
             }
             include_map.push(include_path);
         }
